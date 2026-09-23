@@ -1,0 +1,176 @@
+{
+  "version": 1,
+  "note": "Privacy-safe bilingual project stories. Update one record at a time; keep source and confidentiality fields.",
+  "projects": [
+    {
+      "id": "survey-total-station",
+      "category": "Digital land survey",
+      "bnCategory": "ডিজিটাল ল্যান্ড সার্ভে",
+      "title": "Measured site reference",
+      "bnTitle": "পরিমিত সাইট রেফারেন্স",
+      "subtitle": "Civil Solution – project work profile · Total-station field survey",
+      "bnSubtitle": "সিভিল সলিউশন – প্রকল্প কাজের প্রোফাইল · টোটাল স্টেশন মাঠ জরিপ",
+      "copy": "Total-station field measurements were organized to support a clearer site reference for planning and construction coordination.",
+      "bnCopy": "পরিকল্পনা ও নির্মাণ সমন্বয়ের জন্য টোটাল স্টেশন মাঠ পরিমাপকে সুস্পষ্ট সাইট রেফারেন্স হিসেবে সাজানো হয়েছে।",
+      "tag": "CIVIL SOLUTION – PROJECT WORK PROFILE",
+      "bnTag": "সিভিল সলিউশন – প্রকল্প কাজের প্রোফাইল",
+      "image": "/netlify-assets/facebook-projects/facebook-project-111915208625902-privacy.jpg",
+      "details": [
+        "Total-station field setup",
+        "Measured site reference information",
+        "Organized technical handover for the next decision"
+      ],
+      "bnDetails": [
+        "টোটাল স্টেশন মাঠ সেটআপ",
+        "পরিমিত সাইট রেফারেন্স তথ্য",
+        "পরবর্তী সিদ্ধান্তের জন্য সাজানো কারিগরি হস্তান্তর"
+      ],
+      "imageSource": "https://www.facebook.com/photo.php?fbid=111915208625902&set=pb.100094222700739.-2207520000&type=3",
+      "imageCredit": "Civil Solution Facebook page — public project reference",
+      "imageStatus": "client-authorized-public-reference",
+      "sourcePage": "https://www.facebook.com/profile.php?id=100094222700739",
+      "confidentiality": "Work scope only; no client identity, address, or private project detail."
+    },
+    {
+      "id": "survey-built-up-site",
+      "category": "Concrete repair observation",
+      "bnCategory": "কংক্রিট মেরামত পর্যবেক্ষণ",
+      "title": "Concrete drilling work reference",
+      "bnTitle": "কংক্রিট ড্রিলিং কাজের রেফারেন্স",
+      "subtitle": "Civil Solution · client-supplied anonymized work reference",
+      "bnSubtitle": "সিভিল সলিউশন · ক্লায়েন্ট-সরবরাহকৃত পরিচয়-গোপন করা কাজের রেফারেন্স",
+      "copy": "A concrete drilling operation was documented as a work-scope reference for targeted structural repair and installation activity.",
+      "bnCopy": "নির্দিষ্ট কাঠামোগত মেরামত ও ইনস্টলেশন কাজের পরিসরের রেফারেন্স হিসেবে একটি কংক্রিট ড্রিলিং কার্যক্রম নথিবদ্ধ করা হয়েছে।",
+      "tag": "CLIENT-SUPPLIED WORK REFERENCE",
+      "bnTag": "ক্লায়েন্ট-সরবরাহকৃত কাজের রেফারেন্স",
+      "image": "/netlify-assets/privacy-blurred/supplied-work/civil-solution-wall-drilling-anonymized.jpg",
+      "details": [
+        "Concrete drilling equipment in use",
+        "Targeted repair or installation activity",
+        "Work-scope record with identities omitted"
+      ],
+      "bnDetails": [
+        "ব্যবহৃত কংক্রিট ড্রিলিং সরঞ্জাম",
+        "নির্দিষ্ট মেরামত বা ইনস্টলেশন কাজ",
+        "পরিচয় বাদ দিয়ে কাজের পরিসরের রেকর্ড"
+      ],
+      "imageSource": "Client-supplied photo",
+      "imageCredit": "Civil Solution · anonymized client-supplied work photo",
+      "imageStatus": "client-supplied-anonymized",
+      "confidentiality": "Work scope only; all visible faces anonymized; no client identity, address, or private project detail."
+    },
+    {
+      "id": "survey-landscape",
+      "category": "Digital land survey",
+      "bnCategory": "ডিজিটাল ল্যান্ড সার্ভে",
+      "title": "Open-site survey reference",
+      "bnTitle": "খোলা সাইট জরিপ রেফারেন্স",
+      "subtitle": "Civil Solution – project work profile · Outdoor total-station survey",
+      "bnSubtitle": "সিভিল সলিউশন – প্রকল্প কাজের প্রোফাইল · বহিরাঙ্গন টোটাল স্টেশন জরিপ",
+      "copy": "An outdoor survey setup captured the site measurements needed to establish a dependable reference for the agreed project workflow.",
+      "bnCopy": "সম্মত প্রকল্পের কাজের ধারার জন্য নির্ভরযোগ্য রেফারেন্স তৈরি করতে বহিরাঙ্গন জরিপ সেটআপের মাধ্যমে সাইটের পরিমাপ নেওয়া হয়েছে।",
+      "tag": "CIVIL SOLUTION – PROJECT WORK PROFILE",
+      "bnTag": "সিভিল সলিউশন – প্রকল্প কাজের প্রোফাইল",
+      "image": "/netlify-assets/privacy-blurred/facebook-projects/facebook-project-111923098625113-privacy.jpg",
+      "details": [
+        "Outdoor total-station fieldwork",
+        "Site reference measurements",
+        "Organized information for planning coordination"
+      ],
+      "bnDetails": [
+        "বহিরাঙ্গন টোটাল স্টেশন মাঠকাজ",
+        "সাইট রেফারেন্স পরিমাপ",
+        "পরিকল্পনা সমন্বয়ের জন্য সাজানো তথ্য"
+      ],
+      "imageSource": "https://www.facebook.com/photo.php?fbid=111923098625113&set=pb.100094222700739.-2207520000&type=3",
+      "imageCredit": "Civil Solution Facebook page — public project reference",
+      "imageStatus": "client-authorized-public-reference",
+      "sourcePage": "https://www.facebook.com/profile.php?id=100094222700739",
+      "confidentiality": "Work scope only; no client identity, address, or private project detail."
+    },
+    {
+      "id": "masonry-observation",
+      "category": "Concrete condition observation",
+      "bnCategory": "কংক্রিট অবস্থা পর্যবেক্ষণ",
+      "title": "Concrete scanning observation",
+      "bnTitle": "কংক্রিট স্ক্যানিং পর্যবেক্ষণ",
+      "subtitle": "Civil Solution · client-supplied anonymized work reference",
+      "bnSubtitle": "সিভিল সলিউশন · ক্লায়েন্ট-সরবরাহকৃত পরিচয়-গোপন করা কাজের রেফারেন্স",
+      "copy": "A handheld scanning activity was documented as a work-scope reference for reviewing an existing concrete surface and planning the next technical step.",
+      "bnCopy": "বিদ্যমান কংক্রিটের পৃষ্ঠ পর্যালোচনা ও পরবর্তী কারিগরি পদক্ষেপ পরিকল্পনার কাজের পরিসরের রেফারেন্স হিসেবে হ্যান্ডহেল্ড স্ক্যানিং কার্যক্রম নথিবদ্ধ করা হয়েছে।",
+      "tag": "CLIENT-SUPPLIED WORK REFERENCE",
+      "bnTag": "ক্লায়েন্ট-সরবরাহকৃত কাজের রেফারেন্স",
+      "image": "/netlify-assets/privacy-blurred/supplied-work/civil-solution-concrete-scan-anonymized.jpg",
+      "details": [
+        "Handheld concrete scanning activity",
+        "Existing surface condition review",
+        "Technical observation recorded without client details"
+      ],
+      "bnDetails": [
+        "হ্যান্ডহেল্ড কংক্রিট স্ক্যানিং কার্যক্রম",
+        "বিদ্যমান পৃষ্ঠের অবস্থা পর্যালোচনা",
+        "ক্লায়েন্টের তথ্য বাদ দিয়ে কারিগরি পর্যবেক্ষণ রেকর্ড"
+      ],
+      "imageSource": "Client-supplied photo",
+      "imageCredit": "Civil Solution · anonymized client-supplied work photo",
+      "imageStatus": "client-supplied-anonymized",
+      "confidentiality": "Work scope only; all visible faces anonymized; no client identity, address, or private project detail."
+    },
+    {
+      "id": "soil-investigation-workflow",
+      "category": "Concrete core cutting",
+      "bnCategory": "কংক্রিট কোর কাটিং",
+      "title": "Concrete core sample record",
+      "bnTitle": "কংক্রিট কোর নমুনার রেকর্ড",
+      "subtitle": "Civil Solution · client-supplied work reference",
+      "bnSubtitle": "সিভিল সলিউশন · ক্লায়েন্ট-সরবরাহকৃত কাজের রেফারেন্স",
+      "copy": "A concrete core-cutting operation was documented as part of a structural assessment workflow, keeping the extracted sample and field evidence organized for technical review.",
+      "bnCopy": "স্ট্রাকচারাল মূল্যায়ন কাজের ধারায় কংক্রিট কোর কাটিং কার্যক্রম নথিবদ্ধ করে উত্তোলিত নমুনা ও মাঠ তথ্য কারিগরি পর্যালোচনার জন্য সাজানো হয়েছে।",
+      "tag": "CLIENT-SUPPLIED WORK REFERENCE",
+      "bnTag": "ক্লায়েন্ট-সরবরাহকৃত কাজের রেফারেন্স",
+      "image": "/netlify-assets/privacy-blurred/supplied-work/civil-solution-concrete-core-sample-anonymized.jpg",
+      "details": [
+        "Concrete core-cutting operation",
+        "Extracted concrete sample organized for technical review",
+        "Work-scope documentation for the next structural decision"
+      ],
+      "bnDetails": [
+        "কংক্রিট কোর কাটিং কার্যক্রমের রেকর্ড",
+        "কারিগরি পর্যালোচনার জন্য উত্তোলিত কংক্রিট নমুনা সাজানো",
+        "পরবর্তী কাঠামোগত সিদ্ধান্তের জন্য কাজের নথি"
+      ],
+      "imageSource": "Client-supplied photo",
+      "imageCredit": "Civil Solution · anonymized client-supplied work photo",
+      "imageStatus": "client-supplied-anonymized",
+      "confidentiality": "Work scope only; all visible faces anonymized; no client identity, address, or private project detail."
+    },
+    {
+      "id": "dea-structural-review",
+      "category": "Structural assessment",
+      "bnCategory": "স্ট্রাকচারাল মূল্যায়ন",
+      "title": "Detailed engineering assessment",
+      "bnTitle": "ডিটেইলড ইঞ্জিনিয়ারিং অ্যাসেসমেন্ট",
+      "subtitle": "Illustrative service profile · DEA",
+      "bnSubtitle": "ইলাস্ট্রেটিভ সেবা প্রোফাইল · ডিইএ",
+      "copy": "A DEA workflow brings together condition observations, structural questions, defects, safety considerations, and repair or retrofitting requirements into a structured technical assessment.",
+      "bnCopy": "ডিইএ কাজের ধারায় অবস্থা পর্যবেক্ষণ, কাঠামোগত প্রশ্ন, ত্রুটি, নিরাপত্তা বিবেচনা এবং মেরামত বা রেট্রোফিটিংয়ের চাহিদাকে একটি কাঠামোবদ্ধ কারিগরি মূল্যায়নে সাজানো হয়।",
+      "tag": "CLIENT-SUPPLIED WORK REFERENCE",
+      "bnTag": "ক্লায়েন্ট-সরবরাহকৃত কাজের রেফারেন্স",
+      "image": "/netlify-assets/privacy-blurred/supplied-work/civil-solution-concrete-core-anonymized.webp",
+      "details": [
+        "Concrete core sample measurement",
+        "Existing-condition evidence reviewed within scope",
+        "Technical observations documented for the next decision"
+      ],
+      "bnDetails": [
+        "কংক্রিট কোর নমুনা পরিমাপ",
+        "পরিসরের মধ্যে বিদ্যমান অবস্থা তথ্য পর্যালোচনা",
+        "পরবর্তী সিদ্ধান্তের জন্য কারিগরি পর্যবেক্ষণ নথিবদ্ধ"
+      ],
+      "imageSource": "Client-supplied photo",
+      "imageCredit": "Civil Solution · anonymized client-supplied work photo",
+      "imageStatus": "client-supplied-anonymized",
+      "confidentiality": "Work scope only; all visible faces anonymized; no client identity, address, or private project detail."
+    }
+  ]
+}

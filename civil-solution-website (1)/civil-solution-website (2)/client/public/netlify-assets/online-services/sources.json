@@ -1,0 +1,20 @@
+{
+  "integrity-test-online.webp": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/2/29/Concrete_Compression_Testing.jpg",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/2/29/Concrete_Compression_Testing.jpg",
+    "width": 1320,
+    "height": 1600
+  },
+  "pile-load-test-online.webp": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Reaction_Piling_and_Framing_Set-Up_for_Test_Pile_Loading%2C_3-21-68_%2816380647485%29.jpg",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Reaction_Piling_and_Framing_Set-Up_for_Test_Pile_Loading%2C_3-21-68_%2816380647485%29.jpg",
+    "width": 1600,
+    "height": 1282
+  },
+  "rebar-fixing-online.webp": {
+    "source": "https://commons.wikimedia.org/w/api.php?action=query&titles=File:Rebar_worker.jpg&prop=imageinfo&iiprop=url&format=json",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/0/05/Rebar_worker.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1600,
+    "height": 1067
+  }
+}
