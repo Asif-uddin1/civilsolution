@@ -2,7 +2,6 @@ import { ArrowLeft, ArrowUpRight, Check, Languages } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useLanguage } from "@/hooks/useLanguage";
 import projectsCatalog from "@/content/projects.json";
-import PrivacyImage from "@/components/PrivacyImage";
 
 export default function CompletedProjects() {
   const { isBn, toggleLanguage } = useLanguage();
@@ -23,7 +22,7 @@ export default function CompletedProjects() {
         <div className="blog-grid">
           {projects.map((project) => (
             <article className="blog-card completed-project-card" key={project.id}>
-              <PrivacyImage src={project.image} alt="" />
+              <img src={project.image} alt="" />
               <span className="blog-category">{isBn ? project.bnCategory : project.category}</span>
               <h2>{isBn ? project.bnTitle : project.title}</h2>
               <p>{isBn ? project.bnCopy : project.copy}</p>

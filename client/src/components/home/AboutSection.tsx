@@ -1,5 +1,5 @@
 import type { CSSProperties } from "react";
-import { SectionLabel } from "../SectionLabel";
+import { SectionLabel } from "./SectionLabel";
 import { useReveal } from "@/hooks/useReveal";
 
 export function AboutSection({ isBn, signature }: { isBn: boolean; signature: string }) {
