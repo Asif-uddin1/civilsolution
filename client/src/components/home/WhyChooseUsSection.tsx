@@ -1,7 +1,7 @@
 /* Warm Technical Atelier: Why Choose Us is a surveyed field-note panel, not a uniform feature grid. */
 import type { CSSProperties } from "react";
 import { ArrowUpRight } from "lucide-react";
-import { SectionLabel } from "./SectionLabel";
+import { SectionLabel } from "../SectionLabel";
 import { useReveal } from "@/hooks/useReveal";
 
 type Benefit = [num: string, title: string, body: string, tag: string];
