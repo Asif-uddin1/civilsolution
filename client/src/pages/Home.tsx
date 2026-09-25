@@ -166,8 +166,6 @@ export default function Home() {
           </nav>
           <div className="header-actions">
             <button className="language-toggle" aria-label={isBn ? "ইংরেজিতে পরিবর্তন করুন" : "বাংলায় পরিবর্তন করুন"} onClick={toggleLanguage}><Languages size={15} /><span className={!isBn ? "is-active" : ""}>EN</span><i>/</i><span className={isBn ? "is-active" : ""}>বাংলা</span></button>
-            <a className="header-phone" href="tel:+8801723663908"><Phone size={15} />01723-663908</a>
-            <button className="button button--small button--brown" onClick={() => goTo("contact")}>{localized.primary} <ArrowUpRight size={15} /></button>
             <button className="menu-toggle" aria-label={menuOpen ? (isBn ? "মেনু বন্ধ করুন" : "Close menu") : (isBn ? "মেনু খুলুন" : "Open menu")} aria-expanded={menuOpen} onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <X /> : <Menu />}</button>
           </div>
         </div>
