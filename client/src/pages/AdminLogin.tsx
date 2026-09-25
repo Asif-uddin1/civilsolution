@@ -3,6 +3,7 @@ import { ArrowLeft, Languages, LockKeyhole } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 import { useLanguage } from "@/hooks/useLanguage";
+import { logAdminEvent } from "@/lib/admin";
 import { isSupabaseConfigured, supabase } from "@/lib/supabase";
 
 export default function AdminLogin() {
@@ -30,6 +31,7 @@ export default function AdminLogin() {
       toast.error(isBn ? "এই অ্যাকাউন্টের অ্যাডমিন অনুমতি নেই।" : "This account does not have admin access.");
       return;
     }
+    await logAdminEvent(data.user, "login", "Admin signed in", "session");
     navigate("/admin", { replace: true });
   }
 

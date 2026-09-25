@@ -12,6 +12,7 @@ describe("filterInquiries", () => {
   it("matches text across contact and message fields", () => expect(filterInquiries(inquiries, { query: "boundary", status: "all", service: "all" }).map((item) => item.id)).toEqual(["2"]));
   it("matches project location", () => expect(filterInquiries(inquiries, { query: "dhaka", status: "all", service: "all" }).map((item) => item.id)).toEqual(["2"]));
   it("filters by selected district", () => expect(filterInquiries(inquiries, { query: "", status: "all", service: "all", district: "Chattogram" }).map((item) => item.id)).toEqual(["1"]));
-  it("filters by status and service", () => expect(filterInquiries(inquiries, { query: "", status: "new", service: "Soil Testing" }).map((item) => item.id)).toEqual(["1"]));
+  it("filters by inclusive date range", () => expect(filterInquiries(inquiries, { query: "", status: "all", service: "all", dateFrom: "2026-01-02", dateTo: "2026-01-02" }).map((item) => item.id)).toEqual(["2"]));
+  it("filters from a start date", () => expect(filterInquiries(inquiries, { query: "", status: "all", service: "all", dateFrom: "2026-01-02" }).map((item) => item.id)).toEqual(["2"]));
   it("combines the typed area and selected district", () => expect(buildInquiryProjectLocation("Chattogram", "  Agrabad  ")).toBe("Agrabad, Chattogram"));
 });

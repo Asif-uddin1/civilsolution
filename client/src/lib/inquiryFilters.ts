@@ -1,6 +1,6 @@
 import type { Inquiry, InquiryStatus } from "@/lib/supabase";
 
-export type InquiryFilters = { query: string; status: "all" | InquiryStatus; service: string; district?: string };
+export type InquiryFilters = { query: string; status: "all" | InquiryStatus; service: string; district?: string; dateFrom?: string; dateTo?: string };
 
 export function filterInquiries(inquiries: Inquiry[], filters: InquiryFilters) {
   const query = filters.query.trim().toLowerCase();
@@ -9,6 +9,9 @@ export function filterInquiries(inquiries: Inquiry[], filters: InquiryFilters) {
     const matchesStatus = filters.status === "all" || inquiry.status === filters.status;
     const matchesService = filters.service === "all" || inquiry.service === filters.service;
     const matchesDistrict = !filters.district || inquiry.district === filters.district;
-    return matchesQuery && matchesStatus && matchesService && matchesDistrict;
+    const timestamp = new Date(inquiry.created_at).getTime();
+    const matchesDateFrom = !filters.dateFrom || timestamp >= new Date(`${filters.dateFrom}T00:00:00`).getTime();
+    const matchesDateTo = !filters.dateTo || timestamp <= new Date(`${filters.dateTo}T23:59:59.999`).getTime();
+    return matchesQuery && matchesStatus && matchesService && matchesDistrict && matchesDateFrom && matchesDateTo;
   });
 }
