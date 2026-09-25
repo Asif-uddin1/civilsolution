@@ -11,6 +11,10 @@ export function hasRequiredInquiryFields({ name, phone, projectLocation, message
   return Boolean(name.trim() && phone.trim() && projectLocation.trim() && message.trim());
 }
 
+export function resolveInquiryProjectLocation(projectLocation: string, customProjectLocation: string, otherAreaValue: string) {
+  return projectLocation === otherAreaValue ? customProjectLocation.trim() : projectLocation.trim();
+}
+
 export function buildInquiryText({ name, phone, projectLocation, email, service, message }: InquiryFields) {
   return [
     `Name: ${name}`,
