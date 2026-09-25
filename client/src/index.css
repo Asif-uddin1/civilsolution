@@ -1969,3 +1969,13 @@ h1 span { color: var(--turquoise-dark); }
   .admin-page--redesigned.admin-sidebar-collapsed .admin-sidebar-toggle { top: 14px; left: 12px; }
   .admin-page--redesigned.admin-sidebar-collapsed .admin-header--redesigned { padding-left: 62px; }
 }
+
+/* Compact inquiry status control on small screens: no full-width takeover. */
+@media (max-width: 620px) {
+  .admin-page .inquiry-card-top { flex-direction: row; align-items: flex-start; gap: 9px; }
+  .admin-page .inquiry-card-top > div { min-width: 0; flex: 1 1 auto; }
+  .admin-page .inquiry-card select { width: 108px; min-width: 108px; max-width: 108px; min-height: 36px; padding: 8px 22px 8px 10px; border-radius: 999px; font-size: 10px; }
+}
+@media (max-width: 380px) {
+  .admin-page .inquiry-card select { width: 96px; min-width: 96px; max-width: 96px; padding-inline: 8px 19px; font-size: 9px; }
+}
