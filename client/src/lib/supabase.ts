@@ -18,6 +18,8 @@ export type Inquiry = {
   name: string;
   phone: string;
   project_location: string | null;
+  district: string | null;
+  area_name: string | null;
   email: string | null;
   service: string | null;
   message: string;

@@ -2,6 +2,8 @@ export type InquiryFields = {
   name: string;
   phone: string;
   projectLocation: string;
+  district?: string;
+  areaName?: string;
   email?: string;
   service?: string;
   message: string;
@@ -11,8 +13,8 @@ export function hasRequiredInquiryFields({ name, phone, projectLocation, message
   return Boolean(name.trim() && phone.trim() && projectLocation.trim() && message.trim());
 }
 
-export function resolveInquiryProjectLocation(projectLocation: string, customProjectLocation: string, otherAreaValue: string) {
-  return projectLocation === otherAreaValue ? customProjectLocation.trim() : projectLocation.trim();
+export function buildInquiryProjectLocation(district: string, areaName: string) {
+  return [areaName.trim(), district.trim()].filter(Boolean).join(", ");
 }
 
 export function buildInquiryText({ name, phone, projectLocation, email, service, message }: InquiryFields) {

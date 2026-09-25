@@ -66,3 +66,7 @@ export const bangladeshAreas: AreaOption[] = [
   { en: "Sherpur", bn: "শেরপুর" },
   { en: "Other area / district", bn: "অন্যান্য এলাকা / জেলা" },
 ];
+
+export function isBangladeshDistrict(value: string) {
+  return bangladeshAreas.some((area) => area.en === value && area.en !== OTHER_AREA_VALUE);
+}
