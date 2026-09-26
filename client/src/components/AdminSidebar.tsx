@@ -24,7 +24,7 @@ export default function AdminSidebar({ isBn, toggleLanguage, collapsed, onToggle
   return <>
     <div className={`admin-sidebar-overlay${collapsed ? " admin-sidebar-overlay--hidden" : ""}`} onClick={onToggle} aria-hidden="true" />
     <aside className={`admin-toolbar admin-toolbar--redesigned admin-shared-sidebar${collapsed ? " admin-shared-sidebar--collapsed" : ""}`} aria-label={isBn ? "অ্যাডমিন নেভিগেশন" : "Admin navigation"}>
-      <div className="admin-shared-brand">CIVIL <span>/ SOLUTION</span></div>
+      <div className="admin-shared-brand">SOLUTION</div>
       <nav className="admin-page-links">
         <Link className={linkClass("overview")} to="/admin" onClick={closeOnMobile}><Activity size={16} /> {isBn ? "ওভারভিউ" : "Overview"}</Link>
         <Link className={linkClass("inquiries")} to="/admin/inquiries" onClick={closeOnMobile}><Bell size={16} /> {isBn ? "সব ইনকোয়ারি" : "All inquiries"}{liveCount > 0 && <strong className="admin-sidebar-badge">{liveCount}</strong>}</Link>
