@@ -1979,3 +1979,49 @@ h1 span { color: var(--turquoise-dark); }
 @media (max-width: 380px) {
   .admin-page .inquiry-card select { width: 96px; min-width: 96px; max-width: 96px; padding-inline: 8px 19px; font-size: 9px; }
 }
+
+/* Inquiry workflow polish: visible status color, touch actions, and compact mobile labels. */
+.inquiry-status-select { font-weight: 800; transition: background-color .18s ease, color .18s ease, border-color .18s ease; }
+.inquiry-status-select.inquiry-status-new { color: #7b3e00; background: #fff0c8; border-color: #e29128; }
+.inquiry-status-select.inquiry-status-in_progress { color: #155c59; background: #dff5ef; border-color: #54aa9f; }
+.inquiry-status-select.inquiry-status-closed { color: #5c5660; background: #eeeae5; border-color: #aaa29a; }
+.admin-page--redesigned .inquiry-status-select.inquiry-status-new { color: #7b3e00; background: #fff0c8; border-color: #e29128; }
+.admin-page--redesigned .inquiry-status-select.inquiry-status-in_progress { color: #155c59; background: #dff5ef; border-color: #54aa9f; }
+.admin-page--redesigned .inquiry-status-select.inquiry-status-closed { color: #5c5660; background: #eeeae5; border-color: #aaa29a; }
+.inquiry-swipe-actions { display: flex; gap: 8px; margin-top: 12px; padding-top: 11px; border-top: 1px dashed rgba(95,58,17,.18); }
+.inquiry-swipe-actions button { min-height: 36px; padding: 8px 12px; border: 1px solid var(--turquoise-dark); border-radius: 999px; color: var(--brown-dark); background: var(--turquoise); cursor: pointer; font-size: 10px; font-weight: 800; }
+.inquiry-swipe-actions button:last-child { border-color: #aa6b68; color: #632c28; background: #ffd8d1; }
+@media (max-width: 620px) { .inquiry-card { touch-action: pan-y; } .inquiry-card--swiped { box-shadow: 0 0 0 2px rgba(49,127,121,.24), 0 12px 25px rgba(54,36,22,.1); } }
+
+/* Admin navigation stays fixed while the workspace scrolls; the menu toggle lives in that navbar. */
+.admin-page--redesigned .admin-header--redesigned { position: sticky; top: 0; z-index: 20; }
+.admin-navbar-toggle { display: inline-flex; align-items: center; gap: 7px; position: absolute; left: 14px; top: 17px; width: auto; min-height: 36px; margin: 0; padding: 8px 10px; border: 1px solid var(--admin-line); border-radius: 8px; color: var(--brown-dark); background: rgba(255,252,225,.88); cursor: pointer; font-size: 10px; font-weight: 800; }
+.admin-navbar-toggle:hover, .admin-navbar-toggle:focus-visible { color: var(--cream); background: var(--brown-dark); outline: none; }
+.admin-page--redesigned .admin-header--redesigned { padding-left: 120px; }
+.admin-page--redesigned.admin-sidebar-collapsed .admin-header--redesigned { padding-left: 68px; }
+@media (max-width: 900px) {
+  .admin-page--redesigned .admin-toolbar--redesigned { position: fixed; inset: 0 auto 0 0; z-index: 40; width: min(82vw, 270px); height: 100vh; max-height: 100vh; overflow-y: auto; transform: translateX(0); transition: transform .2s ease; }
+  .admin-page--redesigned .admin-header--redesigned { position: sticky; top: 0; z-index: 30; padding-left: 68px; }
+  .admin-page--redesigned.admin-sidebar-collapsed .admin-toolbar--redesigned { width: min(82vw, 270px); height: 100vh; min-height: 100vh; transform: translateX(-105%); }
+  .admin-page--redesigned.admin-sidebar-collapsed .admin-header--redesigned { padding-left: 68px; }
+  .admin-page--redesigned .admin-sidebar-toggle.admin-navbar-toggle { position: absolute; top: 14px; left: 12px; }
+  .admin-page--redesigned .admin-page-links { display: grid; }
+  .admin-page--redesigned .admin-sidebar-actions { display: grid; margin: auto 8px 14px; }
+  .admin-page--redesigned .admin-sidebar-profile { display: flex; }
+}
+@media (max-width: 560px) {
+  .admin-page--redesigned .admin-header--redesigned { padding-left: 62px; }
+  .admin-navbar-toggle span { display: none; }
+  .admin-navbar-toggle { width: 36px; justify-content: center; padding-inline: 0; }
+  .admin-page--redesigned.admin-sidebar-collapsed .admin-header--redesigned { padding-left: 62px; }
+  .admin-page--redesigned .inquiry-status-select { width: 102px; min-width: 102px; max-width: 102px; padding: 8px 18px 8px 9px; font-size: 10px; }
+}
+@media (max-width: 380px) { .admin-page--redesigned .inquiry-status-select { width: 88px; min-width: 88px; max-width: 88px; } }
+
+/* Password change form on the separate account page. */
+.admin-password-form { display: grid; gap: 12px; margin-top: 18px; }
+.admin-password-form label { display: grid; gap: 6px; color: var(--brown-dark); font-size: 11px; font-weight: 800; }
+.admin-password-form input { min-height: 43px; padding: 10px 12px; border: 1px solid var(--admin-line); border-radius: 9px; color: var(--brown-dark); background: #fffaf0; }
+.admin-password-form input:focus { border-color: var(--turquoise-dark); outline: none; box-shadow: 0 0 0 3px rgba(49,127,121,.12); }
+.admin-password-form .button { justify-self: start; }
+@media (max-width: 640px) { .admin-password-form .button { width: 100%; } }
