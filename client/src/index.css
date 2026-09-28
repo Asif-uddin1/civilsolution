@@ -2028,8 +2028,12 @@ h1 span { color: var(--turquoise-dark); }
 
 /* Shared admin navigation: consistent across overview, inquiries, blog, applications, and account. */
 .admin-shared-sidebar { display: flex; flex-direction: column; gap: 0; }
-.admin-shared-brand { margin: 0 10px 18px; color: var(--cream); font-size: 15px; font-weight: 900; letter-spacing: .18em; }
-.admin-shared-brand span { display: block; margin-top: 4px; color: rgba(255,252,225,.42); font-size: 8px; letter-spacing: .28em; }
+.admin-shared-brand { display: flex; align-items: center; gap: 10px; margin: 0 8px 18px; color: var(--cream); text-decoration: none; }
+.admin-shared-brand img { width: 34px; height: 34px; flex: 0 0 34px; object-fit: contain; border-radius: 5px; background: rgba(255,252,225,.9); }
+.admin-shared-brand span { display: grid; gap: 3px; }
+.admin-shared-brand strong { color: var(--cream); font-size: 15px; font-weight: 900; letter-spacing: .18em; line-height: 1; }
+.admin-shared-brand em { color: rgba(255,252,225,.58); font-size: 8px; font-style: normal; font-weight: 800; letter-spacing: .28em; line-height: 1; }
+.admin-shared-brand:hover strong, .admin-shared-brand:focus-visible strong { color: var(--turquoise); }
 .admin-sidebar-link { position: relative; display: flex; align-items: center; gap: 10px; width: 100%; min-height: 40px; padding: 10px 12px; border-radius: 8px; color: rgba(255,252,225,.72); text-decoration: none; }
 .admin-sidebar-link:hover, .admin-sidebar-link:focus-visible, .admin-sidebar-link--active { color: var(--brown-dark) !important; background: var(--turquoise); outline: none; }
 .admin-sidebar-badge { display: grid; place-items: center; min-width: 20px; height: 20px; margin-left: auto; border-radius: 999px; color: var(--brown-dark); background: var(--orange); font-size: 10px; }
